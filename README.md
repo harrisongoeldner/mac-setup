@@ -134,3 +134,5 @@ clone powerline fonts and install
 
 add zsh-usr syntax-highling and autosuggestions
 
+**vim**
+https://danielmiessler.com/study/vim/
