@@ -1,18 +1,22 @@
 # mac-setup
 A installation guide for setting up your mac for programming
-Note: still being written
+
+
 
 ## Installing HomeBrew
 > /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 ## Some useful tools
 
-> brew install wget
-
+``` 
+brew install wget
+```
+```
 > brew install python@3.9
-
+```
+```
 > brew install screen
-
+```
 https://www.speedtest.net/apps/cli
 
 brew tap teamookla/speedtest
