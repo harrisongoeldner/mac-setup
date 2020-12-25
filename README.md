@@ -198,11 +198,13 @@ Visual Studio Code might be one of the most useful code editors and can easily b
 brew install --cask visual-studio-code
 ```
 
-Type `⌘⇧P` and then search `install extensions` and hit `ENTER`. From here, I usually just install the Python extension by Microsoft. Feel free to customize your install however you want. Something I usually do, is set up iTerm integration. I do this by adding the following to `.json` file found here in settings:
+Type `⌘⇧P` and then search `install extensions` and hit `ENTER`. From here, I usually just install the Python extension by Microsoft. Feel free to customize your install however you want. It'd be good to select the python interpreter we just installed above. Something I usually do, is set up iTerm integration. I do this by adding the following to `.json` file found here in settings:
 
 Navigate to:
 
+![Microsoft Visual Studio Settings](https://github.com/harrisongoeldner/mac-setup/blob/main/Microsoft%20Visual%20Studio%20Settings.png)
 
+And add the last four lines (the first two were added when we changed in the python interpreter.
 
 ```
 {
@@ -219,41 +221,51 @@ Navigate to:
 
 *Note: Configuration file included and also install python package*
 
-### Setup of Visual Studio
+### Vim Setup
 
-```
-"terminal.external.osxExec": "iTerm.app",
-"terminal.explorerKind": "external",
-"terminal.integrated.fontFamily": "Source Code Pro for Powerline",
-"workbench.colorTheme": "Solarized Dark"
-```
+Something you're bound to be exposed to as you do development is Vim. Although it isn't my go to editor, it is super handy to know how to use. I'd recommend the following guide on using Vim: [Guide](https://danielmiessler.com/study/vim/)
 
-## Useful Virtualization Tools
-```
-docker
-
-virtualbox
-```
-
-## Installing Alfred
-
-https://www.alfredapp.com/
-
-https://github.com/vitorgalvao/custom-alfred-iterm-scripts
-
-Also switch default interpreter (if using python)
-
-## vim
+**Make sure you have the most recent version of Vim**
 
 ```
 brew install vim
 ```
 
-https://danielmiessler.com/study/vim/
-https://github.com/romainl/idiomatic-vimrc
-https://github.com/amix/vimrc
+#### Setting up the `.vimrc` file
+
+The `.vimrc` file is found in your `Home` directory. It's possible to use Vim without modifying anything. I personally used the following guides to create my own personal setup:
+
+```
+[https://github.com/romainl/idiomatic-vimrc](https://github.com/romainl/idiomatic-vimrc)
+[https://github.com/amix/vimrc](https://github.com/amix/vimrc)
+```
+
+## Useful Virtualization Tools
+
+If you ever have to containerize applications or test things out, I'd recommend the following two pieces of software:
+
+1. Docker
+2. Virtualbox
+
+Both of them are useful in their own way and I'd recommend reading their wikis to see if they'd be useful to you.
+
+## Installing Alfred
+
+Alfred is search tool of choice for Mac. It does cost quite abit upfront and I'd recommend paying a little bit extra for the lifetime updates, especiialy if you plan to use it long term. It's still in active development and as such receives frequent updates.
+
+[Website](https://www.alfredapp.com/)
+
+**Alfred and iTerm2**
+
+To get Alfred to work with iTerm2, the developer recommended the following script:
+
+[https://github.com/vitorgalvao/custom-alfred-iterm-scripts](https://github.com/vitorgalvao/custom-alfred-iterm-scripts)
+
+**To be Added**
 
 ## Mac Keyboard Home and End Buttons
+## Python Packges
 
-
-https://www.selenium.dev/
+1. https://www.selenium.dev/
+2. Geckodriver
+3. Cryptography package
