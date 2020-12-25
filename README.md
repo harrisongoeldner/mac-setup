@@ -204,7 +204,7 @@ Type `⌘⇧P` and then search `install extensions` and hit `ENTER`. From here, 
 
 Navigate to:
 
-![Microsoft Visual Studio Settings](https://github.com/harrisongoeldner/mac-setup/blob/main/Microsoft%20Visual%20Studio%20Settings.png)
+![Microsoft Visual Studio Settings](https://github.com/harrisongoeldner/mac-setup/blob/main/Images/Microsoft%20Visual%20Studio%20Settings.png)
 
 And add the last four lines (the first two were added when we changed in the python interpreter.
 
