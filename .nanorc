@@ -1,0 +1,3 @@
+# Include python syntax
+
+include /usr/local/share/nano/python.nanorc

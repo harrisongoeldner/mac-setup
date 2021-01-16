@@ -46,7 +46,7 @@ brew install wget
 The python shipped with most Macs is often outdated. To install the most recent version run the code below. Note, to develop with multiple python versions you will want to use pyenv. See [HERE](https://www.freecodecamp.org/news/manage-multiple-python-versions-and-virtual-environments-venv-pyenv-pyvenv-a29fb00c296f/) for more info.
 
 ```
-brew install python@3.9
+brew install python3
 ```
 
 **GNU screen**
@@ -132,7 +132,7 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 Some of the themes won't work unless you have a mono font. I recommend powerline fonts which you can clone and then run as follows:
 
 ```
-https://github.com/powerline/fonts.git
+git clone https://github.com/powerline/fonts.git
 ```
 
 And run:
@@ -141,7 +141,7 @@ And run:
 ./install.sh
 ```
 
-Finally, clone the following two repositories into the Oh-My-Zsh plugins folder (or simply install with homebrew and point source to install folder)
+Finally, clone the following two repositories into the Oh-My-Zsh plugins folder (or simply install with Homebrew and point source to install folder)
 
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -175,7 +175,7 @@ Finally you will want to change the theme and perhaps add some aliases. Take a l
 Sublime Text is a classic and widely used text editor. I primarily use it to make quick fixes and then use Visual Studio Code for development. In fact, I am writing this guide in sublime text right now.
 
 ```
-brew install sublime-text
+brew install --cask sublime-text
 ```
 
 There are many things you can change in Sublime Text. All I've done is changed the theme and a couple other settings including spell check:
