@@ -279,7 +279,7 @@ Alfred is search tool of choice for Mac. It does cost quite abit upfront and I'd
 
 To get Alfred to work with iTerm2, the developer recommended the following script:
 
-[https://github.com/vitorgalvao/custom-alfred-iterm-scripts](https://github.com/vitorgalvao/custom-alfred-iterm-scripts)
+> [https://github.com/vitorgalvao/custom-alfred-iterm-scripts](https://github.com/vitorgalvao/custom-alfred-iterm-scripts)
 
 **To be Added**
 
