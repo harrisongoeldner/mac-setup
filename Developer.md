@@ -191,7 +191,7 @@ brew install zsh-autosuggestions
 **Zsh-Syntax-Highlighting**
 
 ```
-zsh-syntax-highlighting
+brew install zsh-syntax-highlighting
 ```
 **Add sources to `.zshrc`**
 
