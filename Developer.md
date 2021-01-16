@@ -4,7 +4,7 @@ A installation guide for setting up your mac for programming
 *Currently this guide is in active development*
 
 ## Content
-1. [Introduction](Introduction)
+1. [Introduction](#Introduction)
 
 ## Introduction
 
