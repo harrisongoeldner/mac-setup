@@ -3,6 +3,9 @@ A installation guide for setting up your mac for programming
 
 *Currently this guide is in active development*
 
+## Content
+1. [Introduction](Introduction)
+
 ## Introduction
 
 Setting up your Mac for optimal performance is key to productivity. This is what this guide tries accomplish. I've compiled all the little tidbits of information I've gathered over time and put it into this guide.
