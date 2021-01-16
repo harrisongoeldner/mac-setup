@@ -5,14 +5,14 @@ A installation guide for setting up your mac for programming
 
 ## Content
 1. [Introduction](#Introduction)
-2. [Homebrew](#Installing-[HomeBrew-(https://brew.sh/))
+2. [Homebrew](#Installing-HomeBrew)
 3. [Commandline Tools](#Some-useful-commandline-tools)
-4. [Useful Applications](#Useful Image Editor and Video Viewer)
-5. [Terminal](#Setup Terminal Emulator)
-6. [Code Editors](#Getting Ready your Code Editors)
-7. [Alfred](#Installing [Alfred](https://www.alfredapp.com/))
-8. [Home/End Keys on macOS](#Mac Keyboard Home and End Buttons)
-9. [Python Packages](#Python Packges)
+4. [Useful Applications](#Useful-Image-Editor-and-Video-Viewer)
+5. [Terminal](#Setup-Terminal-Emulator)
+6. [Code Editors](#Getting-Ready-your-Code-Editors)
+7. [Alfred](#Installing-Alfred)
+8. [Home/End Keys on macOS](#Mac-Keyboard-Home-and-End-Buttons)
+9. [Python Packages](#Python-Packges)
 
 ## Introduction
 
