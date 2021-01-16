@@ -5,6 +5,14 @@ A installation guide for setting up your mac for programming
 
 ## Content
 1. [Introduction](#Introduction)
+2. [Homebrew](#Installing [HomeBrew](https://brew.sh/))
+3. [Commandline Tools](#Some useful commandline tools)
+4. [Useful Applications](#Useful Image Editor and Video Viewer)
+5. [Terminal](#Setup Terminal Emulator)
+6. [Code Editors](#Getting Ready your Code Editors)
+7. [Alfred](#Installing [Alfred](https://www.alfredapp.com/))
+8. [Home/End Keys on macOS](#Mac Keyboard Home and End Buttons)
+9. [Python Packages](#Python Packges)
 
 ## Introduction
 
@@ -94,7 +102,7 @@ Nano on Mac is severely out of date and lacks many new features. To get the upda
 brew install nano
 ```
 
-**Useful Image Editor and Video Viewer**
+## Useful Image Editor and Video Viewer
 
 When developing applications, it is often useful to be able to modify images. GIMP may be the best free and open source tool to do that. It may not have all the bells and whistles of Adobe Photoshop, but it doesn't cost a penny and will get the job done.
 
