@@ -162,6 +162,14 @@ I have attached my .zshrc configuration to this repository.
 *These two plugins can also be installed using Homebrew or git in another folder. To add these to zsh you'd want to add the following lines to your .zshrc configuration file replacing the path*
 
 ```
+brew install zsh-autosuggestions
+```
+
+```
+zsh-syntax-highlighting
+```
+
+```
 source [path]/zsh-syntax-highlighting.zsh
 source [path]/zsh-autosuggestions.zsh
 ```
