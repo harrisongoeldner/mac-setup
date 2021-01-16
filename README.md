@@ -8,6 +8,9 @@ Welcome! This collection of documents in a **Mac guide** to setting up your comp
 
 # Pages
 
-  [Basics](https://github.com/harrisongoeldner/mac-setup/blob/main/BASICS.md)
-  [Software]()
-  [Developer](https://github.com/harrisongoeldner/mac-setup/blob/main/Developer.md)
+  [Basics](Install.md)
+  
+  [Software](Software.md)
+  
+  [Developer](Developer.md)
+  
