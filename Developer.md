@@ -154,7 +154,11 @@ And run:
 ./install.sh
 ```
 
-### Method 1
+### Plugins
+
+Although there are many plugin managers out there for zsh, I have chosen just to use the default oh-my-zsh framework. There are two methods to do this as shown below.
+
+#### Method 1
 
 Finally, clone the following two repositories into the Oh-My-Zsh plugins folder (or simply install with Homebrew and point source to install folder)
 
@@ -174,7 +178,7 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 I have attached my .zshrc configuration to this repository.
 
-### Method 2
+#### Method 2
 
 *These two plugins can also be installed using Homebrew or git in another folder. To add these to zsh you'd want to add the following lines to your .zshrc configuration file replacing the path*
 
