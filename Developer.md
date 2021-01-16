@@ -5,7 +5,7 @@ A installation guide for setting up your mac for programming
 
 ## Content
 1. [Introduction](#Introduction)
-2. [Homebrew](#Installing [HomeBrew](https://brew.sh/))
+2. [Homebrew](#Installing-[HomeBrew-(https://brew.sh/))
 3. [Commandline Tools](#Some-useful-commandline-tools)
 4. [Useful Applications](#Useful Image Editor and Video Viewer)
 5. [Terminal](#Setup Terminal Emulator)
