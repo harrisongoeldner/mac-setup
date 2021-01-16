@@ -59,7 +59,7 @@ brew install screen
 
 **Speedtest**
 
-There are a couple speedtest options out there, an open source one called speedtest-cli and a CLI created by Ookla. I chose the latter and installed it as follows which can be found on their website [HERE}(https://www.speedtest.net/apps/cli)
+There are a couple speedtest options out there, an open source one called speedtest-cli and a CLI created by Ookla. I chose the latter and installed it as follows which can be found on their website [HERE](https://www.speedtest.net/apps/cli)
 
 ```
 brew tap teamookla/speedtest
@@ -96,7 +96,7 @@ brew install nano
 When developing applications, it is often useful to be able to modify images. GIMP may be the best free and open source tool to do that. It may not have all the bells and whistles of Adobe Photoshop, but it doesn't cost a penny and will get the job done.
 
 ```
-brew install gimp
+brew install --cask gimp
 ```
 
 Another useful tool is Audacity which deals with audio files. Be careful to download from the official website however. There was a time where a **fake** website was the top search instead of the official one. [Link to Official Site](https://www.audacityteam.org/)
@@ -104,7 +104,7 @@ Another useful tool is Audacity which deals with audio files. Be careful to down
 Finally, VLC is such a staple when it comes to open source software I just had to install it.
 
 ```
-brew install vlc
+brew install --cask vlc
 ```
 
 ## Setup Terminal Emulator
@@ -112,7 +112,7 @@ brew install vlc
 iTerm2 is a great alternative to the default terminal that comes on Mac. It also has better color support and is my personal favorite emulator. I highly recommend. On top of that it was audited by Firefox!
 
 ```
-brew install iterm2
+brew install --cask iterm2
 ```
 
 Next, you'll want to set up zsh which comes by default on newer Macs. To install if you don't have it, run the following command:
@@ -165,6 +165,24 @@ I have attached my .zshrc configuration to this repository.
 source [path]/zsh-syntax-highlighting.zsh
 source [path]/zsh-autosuggestions.zsh
 ```
+### Fix common error by adding to `.zshrc`
+
+```
+ZSH_DISABLE_COMPFIX="true"
+```
+
+You'll want to add completions as well by adding the following:
+
+```
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+
+  autoload -Uz compinit
+  compinit
+fi
+```
+
+Run `chmod -R go-w "$(brew --prefix)/share"` if get error are insecure directories.
 
 Finally you will want to change the theme and perhaps add some aliases. Take a look at my script.
 
@@ -251,21 +269,31 @@ If you ever have to containerize applications or test things out, I'd recommend 
 
 Both of them are useful in their own way and I'd recommend reading their wikis to see if they'd be useful to you.
 
-## Installing Alfred
+### Installation
+
+```
+brew install --cask docker
+```
+
+```
+brew install --cask virtualbox
+```
+
+## Installing [Alfred](https://www.alfredapp.com/)
 
 Alfred is search tool of choice for Mac. It does cost quite abit upfront and I'd recommend paying a little bit extra for the lifetime updates, especiialy if you plan to use it long term. It's still in active development and as such receives frequent updates.
-
-[Website](https://www.alfredapp.com/)
 
 **Alfred and iTerm2**
 
 To get Alfred to work with iTerm2, the developer recommended the following script:
 
-[https://github.com/vitorgalvao/custom-alfred-iterm-scripts](https://github.com/vitorgalvao/custom-alfred-iterm-scripts)
+> [https://github.com/vitorgalvao/custom-alfred-iterm-scripts](https://github.com/vitorgalvao/custom-alfred-iterm-scripts)
 
 **To be Added**
+*Still in the works*
 
 ## Mac Keyboard Home and End Buttons
+
 ## Python Packges
 
 1. https://www.selenium.dev/
