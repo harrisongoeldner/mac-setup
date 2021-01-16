@@ -269,11 +269,19 @@ If you ever have to containerize applications or test things out, I'd recommend 
 
 Both of them are useful in their own way and I'd recommend reading their wikis to see if they'd be useful to you.
 
-## Installing Alfred
+### Installation
+
+```
+brew install --cask docker
+```
+
+```
+brew install --cask virtualbox
+```
+
+## Installing [Alfred](https://www.alfredapp.com/)
 
 Alfred is search tool of choice for Mac. It does cost quite abit upfront and I'd recommend paying a little bit extra for the lifetime updates, especiialy if you plan to use it long term. It's still in active development and as such receives frequent updates.
-
-[Website](https://www.alfredapp.com/)
 
 **Alfred and iTerm2**
 
@@ -282,8 +290,10 @@ To get Alfred to work with iTerm2, the developer recommended the following scrip
 > [https://github.com/vitorgalvao/custom-alfred-iterm-scripts](https://github.com/vitorgalvao/custom-alfred-iterm-scripts)
 
 **To be Added**
+*Still in the works*
 
 ## Mac Keyboard Home and End Buttons
+
 ## Python Packges
 
 1. https://www.selenium.dev/
