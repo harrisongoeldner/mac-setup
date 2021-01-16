@@ -318,3 +318,8 @@ To get Alfred to work with iTerm2, the developer recommended the following scrip
 1. https://www.selenium.dev/
 2. Geckodriver
 3. Cryptography package
+
+nmap
+fzf
+
+
