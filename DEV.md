@@ -59,7 +59,7 @@ brew install screen
 
 **Speedtest**
 
-There are a couple speedtest options out there, an open source one called speedtest-cli and a CLI created by Ookla. I chose the latter and installed it as follows which can be found on their website [HERE}(https://www.speedtest.net/apps/cli)
+There are a couple speedtest options out there, an open source one called speedtest-cli and a CLI created by Ookla. I chose the latter and installed it as follows which can be found on their website [HERE](https://www.speedtest.net/apps/cli)
 
 ```
 brew tap teamookla/speedtest
