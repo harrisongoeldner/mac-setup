@@ -129,6 +129,8 @@ Install [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh/)
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+### Powerline Fonts
+
 Some of the themes won't work unless you have a mono font. I recommend powerline fonts which you can clone and then run as follows:
 
 ```
@@ -140,6 +142,8 @@ And run:
 ```
 ./install.sh
 ```
+
+### Method 1
 
 Finally, clone the following two repositories into the Oh-My-Zsh plugins folder (or simply install with Homebrew and point source to install folder)
 
@@ -159,6 +163,8 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 I have attached my .zshrc configuration to this repository.
 
+### Method 2
+
 *These two plugins can also be installed using Homebrew or git in another folder. To add these to zsh you'd want to add the following lines to your .zshrc configuration file replacing the path*
 
 **Zsh-Autosuggestions**
@@ -172,6 +178,7 @@ brew install zsh-autosuggestions
 ```
 zsh-syntax-highlighting
 ```
+**Add sources to `.zshrc`**
 
 ```
 source [path]/zsh-syntax-highlighting.zsh
