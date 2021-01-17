@@ -102,6 +102,22 @@ Nano on Mac is severely out of date and lacks many new features. To get the upda
 brew install nano
 ```
 
+**Network Scanner**
+
+A tool I like to use to scan my network for unknown devices is [nmap](https://en.wikipedia.org/wiki/Nmap). It's super useful and been around for ages. Again, installtion is made a breeze with Homebrew by running the following command:
+
+```
+brew install nmap
+```
+
+**Fuzzy Search (aka fzf**
+
+To be frank, this is a widely used tool that I haven't utilized too much... mainly due to being too lazy to learn a new command. Nevertheless I've heard of what it can do and plan to use it in the future.
+
+```
+brew install fzf
+```
+
 ## Useful Image Editor and Video Viewer
 
 When developing applications, it is often useful to be able to modify images. GIMP may be the best free and open source tool to do that. It may not have all the bells and whistles of Adobe Photoshop, but it doesn't cost a penny and will get the job done.
@@ -333,8 +349,3 @@ To get Alfred to work with iTerm2, the developer recommended the following scrip
 1. https://www.selenium.dev/
 2. Geckodriver
 3. Cryptography package
-
-nmap
-fzf
-
-
