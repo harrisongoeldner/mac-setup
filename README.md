@@ -9,18 +9,15 @@ Welcome! This collection of documents in a **Mac guide** to setting up your comp
 # Content
 
 - [Basics](Install.md)
-
 - [Software](Software.md)
-
 - [Alfred](Alfred.md)
-
-- [Developer](Developer.md/) /n
-      - [Introduction](Developer.md/#Introduction)\n
-      - [Homebrew](Developer.md/#Installing-HomeBrew)\n
-      - [Commandline Tools](Developer.md/#Some-useful-commandline-tools)\n
-      - [Useful Applications](Developer.md/#Useful-Image-Editor-and-Video-Viewer)\n
-      - [Terminal](Developer.md/#Setup-Terminal-Emulator)\n
-      - [Code Editors](Developer.md/#Getting-Ready-your-Code-Editors)\n
-      - [Alfred](Developer.md/#Installing-Alfred)\n
-      - [Home/End Keys on macOS](Developer.md/#Mac-Keyboard-Home-and-End-Buttons)\n
-      - [Python Packages](Developer.md/#Python-Packges)\n
+- [Developer](Developer.md/)
+      - [Introduction](Developer.md/#Introduction)
+      - [Homebrew](Developer.md/#Installing-HomeBrew)
+      - [Commandline Tools](Developer.md/#Some-useful-commandline-tools)
+      - [Useful Applications](Developer.md/#Useful-Image-Editor-and-Video-Viewer)
+      - [Terminal](Developer.md/#Setup-Terminal-Emulator)
+      - [Code Editors](Developer.md/#Getting-Ready-your-Code-Editors)
+      - [Alfred](Developer.md/#Installing-Alfred)
+      - [Home/End Keys on macOS](Developer.md/#Mac-Keyboard-Home-and-End-Buttons)
+      - [Python Packages](Developer.md/#Python-Packges)
