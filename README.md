@@ -6,11 +6,10 @@ Welcome! This collection of documents in a **Mac guide** to setting up your comp
 
 *This guide is still in its creation*
 
-# Pages
+# Content
 
-  [Basics](Install.md)
-  
-  [Software](Software.md)
-  
-  [Developer](Developer.md)
+    1. [Basics](Install.md)
+    2. [Software](Software.md)
+    3. 
+    4. [Developer](Developer.md)
   
