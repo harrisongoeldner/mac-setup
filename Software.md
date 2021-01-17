@@ -27,3 +27,29 @@ I use a logitech keyboard and as such I usually download Logitech Options. Not m
 ## Malware Scanner
 
 For detecting Malware, I use Malwarebytes. It was recommended to me by Apple Support as well as a local computer store. They have a free version which does everything you'll need except auto scan. Unless you want to pitch out $40 a year to autoscan, just get the free version. 
+
+## Reference Manager
+
+I am in university, and as such I need to use references in most of my essays. I use an open source piece of software called Zotero which is compadibly with Google Docs, Word, and Libre Office. In addition it has a Chrome and Firefox extension to save articles and websites to the manager.
+
+## Kanban
+
+For time management, I use a piece of software called Trello. You can just use the web version, but I also got the desktop version (they also have a phone app) from the macOS app store.
+
+## Spotlight Replacement
+
+Spotlight is great, but no where as powerful as Alfred. With Alfred, I can auto expand text and search custom set websites. Navigate directories and create custom workflows. I might add an entire article to this repository alone (see [HERE](Alfred))
+
+***Still working on article***
+
+## Spotify
+
+Use spotify for listening to music.
+
+## MS Office
+
+Go to sweet for productivity.
+
+## Bartender
+
+## Magnet
