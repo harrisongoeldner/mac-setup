@@ -16,22 +16,20 @@ Welcome! This collection of documents in a **Mac guide** to setting up your comp
 
 4. [Developer](Developer.md/)
 
-    a. [Introduction](#Introduction)
+      a. [Introduction](#Introduction)
   
-    b. [Homebrew](#Installing-HomeBrew)
+      b. [Homebrew](#Installing-HomeBrew)
   
-    c. [Commandline Tools](#Some-useful-commandline-tools)
+      c. [Commandline Tools](#Some-useful-commandline-tools)
    
-    d. [Useful Applications](#Useful-Image-Editor-and-Video-Viewer)
+      d. [Useful Applications](#Useful-Image-Editor-and-Video-Viewer)
   
-    e. [Terminal](#Setup-Terminal-Emulator)
+      e. [Terminal](#Setup-Terminal-Emulator)
   
-    f. [Code Editors](#Getting-Ready-your-Code-Editors)
+      f. [Code Editors](#Getting-Ready-your-Code-Editors)
   
-    g. [Alfred](#Installing-Alfred)
+      g. [Alfred](#Installing-Alfred)
   
-    h. [Home/End Keys on macOS](#Mac-Keyboard-Home-and-End-Buttons)
+      h. [Home/End Keys on macOS](#Mac-Keyboard-Home-and-End-Buttons)
   
-    i. [Python Packages](#Python-Packges)
-  
-  
+      i. [Python Packages](#Python-Packges)
