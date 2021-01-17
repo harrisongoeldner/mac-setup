@@ -4,6 +4,10 @@ Once the system is installed and basic setup is completed (see [HERE](Setup)), i
 
 In addition, I generally only update Homebrew every two weeks. Now, you could argue that I could just set auto update up on Homebrew and that usually Chrome and MS Word is at the latest version within hours on brew. This would be true. But I still have the issue that these pieces of software are "smart." They auto update themself and this could break Homebrew updates to that package which would be a mess (I had an Homebrew software break once due to another issue and it was a pain). Again one could also counter argue this by saying that I should just disable auto update. The problem is that this isn't usually very easy to do, if downright impossible. As a result, for simplicity sake, I don't use Homebrew for everything.
 
+## Content
+
+- [Browser](#Browser) - Google Chrome
+
 ## Browser
 
 The very first thing I download on any computer is Google Chrome. Why? Well most of the website I use (Zoom and Google) don't alwasy work properly on Safari. Plus, my default extensions (which are open source) aren't available on Safari and I don't trust any of the smaller closed source projects (there is a long history of web browser extensions containing malware).
