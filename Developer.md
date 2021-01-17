@@ -1,4 +1,4 @@
-# mac-setup
+# Developer
 A installation guide for setting up your mac for programming
 
 *Currently this guide is in active development*
