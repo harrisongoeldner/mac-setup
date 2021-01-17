@@ -14,7 +14,7 @@ Welcome! This collection of documents in a **Mac guide** to setting up your comp
 
 - [Alfred](Alfred.md)
 
-- [Developer](Developer.md/)\n
+- [Developer](Developer.md/) \n
       - [Introduction](Developer.md/#Introduction)\n
       - [Homebrew](Developer.md/#Installing-HomeBrew)\n
       - [Commandline Tools](Developer.md/#Some-useful-commandline-tools)\n
