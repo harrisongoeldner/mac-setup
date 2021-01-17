@@ -16,7 +16,7 @@ Welcome! This collection of documents in a **Mac guide** to setting up your comp
 
 4. [Developer](Developer.md/)
 
-      a. [Introduction](#Introduction)
+      a. [Introduction](Developer.md/#Introduction)
   
       b. [Homebrew](#Installing-HomeBrew)
   
