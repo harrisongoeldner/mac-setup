@@ -44,16 +44,24 @@ For time management, I use a piece of software called Trello. You can just use t
 
 Spotlight is great, but no where as powerful as Alfred. With Alfred, I can auto expand text and search custom set websites. Navigate directories and create custom workflows. I might add an entire article to this repository alone (see [HERE](Alfred))
 
-***Still working on article***
-
 ## Spotify
 
-Use spotify for listening to music.
+I could use Apple Music, but I enjoy Spotify better. Hence I use this to listen to Music.
 
 ## MS Office
 
-Go to sweet for productivity.
+Yes, you can use LibreOffice... but I don't because university requires specific features of excel. Plus you get 1 TB of free storage so I'm not complaining.
+
+# Extras
 
 ## Bartender
 
+Once you've settled into using your Mac, the menu bar begins to get messy. You could simply remove icons but I find myself running into two problems. The first is that some icons I want to use only occationally. The second is that some menu bar items cannot be removed (cough cough OneDrive) and in addition add a new icon for every single account! The solution? Mac Bartender is a staple that's been around for a while. Super customizable. Essentially enables you to hide icons until you hover your mouse over it. Very useful!
+
 ## Magnet
+
+Apple has done great at some things... but really bad in others. In my opinion, they handle window management fairly well until it comes to window snapping. For those that don't know, in Windows 10, when you drag your window to the edge of the screen, it can snap to either a half or full screen etc. MacOS lacks that feature and this is what Magnet does. It's the third most downloaded app in the app store and I believe it won an award from Apple for top innovators (don't quote me on it).
+
+## iStat Menus
+
+Having my CPU stats in the menu bar is something I miss from Linux. It's great. You can see if your CPU is being used. In addition has tons of cool features like fan control and weather stats.
