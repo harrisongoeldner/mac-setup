@@ -1,6 +1,8 @@
 # Developer
 A installation guide for setting up your mac for programming
 
+![iTerm](Images/iTerm.png)
+
 *Currently this guide is in active development*
 
 ## Content
