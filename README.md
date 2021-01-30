@@ -2,6 +2,8 @@
 
 Welcome! This collection of documents in a **Mac guide** to setting up your computer. It is tagetted primarly for [macOS](https://en.wikipedia.org/wiki/MacOS) users but some things can be gleaned for other operating systems. The compadibility of the solutions in this guide are tested on the latest release of macOS which is Big Sur.
 
+![Desktop Screenshot](Images/Screen Shot 2021-01-30 at 12.04.00 AM.png)
+
 # Note
 
 *This guide is still in its creation*
