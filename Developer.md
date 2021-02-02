@@ -317,9 +317,11 @@ The `.vimrc` file is found in your `Home` directory. It's possible to use Vim wi
 If you ever have to containerize applications or test things out, I'd recommend the following two pieces of software:
 
 1. Docker
-2. Virtualbox
+2. VMware Fusion
 
-Both of them are useful in their own way and I'd recommend reading their wikis to see if they'd be useful to you.
+I used to recommend Virtualbox by Oracle for OS virtualization, however with the update to Big Sur I encountered a bunch of issues getting it installed. In addtion I found the software not optimized for mac and getting the Guest Additions setup was a pain. VMware has been in the hypervisor business for ages and VMware fusion is their specific Mac version of their VMware workstation. Not only does it run so much faster than Virtualbox, it is so much easier to setup. They do have a premium version of their software, but just of September 2020, they made the lower tier free for noncommercial use. 
+
+Both of Docker and Vmware Fusion are useful in their own way and I'd recommend reading their wikis to see if they'd be useful to you.
 
 ### Installation
 
