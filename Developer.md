@@ -150,6 +150,8 @@ Next, you'll want to set up zsh which comes by default on newer Macs. To install
 brew install zsh
 ```
 
+If you want to setup brew completions in zsh then check out [https://docs.brew.sh/Shell-Completion#configuring-completions-in-zsh](https://docs.brew.sh/Shell-Completion#configuring-completions-in-zsh)
+
 The next couple steps are optional but recommended if you want a fantastic looking terminal.
 
 Install [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh/)
