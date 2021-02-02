@@ -46,6 +46,8 @@ To install homebrew simply run the following command.
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
+If you want to setup your mac for multiuser usage then checkout [https://medium.com/@leifhanack/homebrew-multi-user-setup-e10cb5849d59](https://medium.com/@leifhanack/homebrew-multi-user-setup-e10cb5849d59)
+
 ## Some useful commandline tools
 
 **wget**
