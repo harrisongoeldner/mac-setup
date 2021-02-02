@@ -17,7 +17,6 @@ In addition, I generally only update Homebrew every two weeks. Now, you could ar
 - [Spotlight Replacement](#Spotlight-Replacement)
 - [Spotify](#Spotify)
 - [MS Office](#MS-Office)
-
 - [Bartender](#Bartender)
 - [Magnet](#Magnet)
 - [iStat Menus](#iStat-Menus)
