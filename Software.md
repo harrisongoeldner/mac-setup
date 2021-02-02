@@ -6,7 +6,10 @@ In addition, I generally only update Homebrew every two weeks. Now, you could ar
 
 ## Content
 
-- [Browser](#Browser) - Google Chrome
+- [Browser](#Browser)
+- [Password Manager](#Password-Manager)
+- [Authenticator](#Authenticator)
+- [AdBlocker](#Adblocker)
 
 ## Browser
 
