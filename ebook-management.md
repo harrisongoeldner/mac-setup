@@ -174,6 +174,7 @@ The other plugins you can install are:
 - Modify ePub
 - Quality Check
 - Reading List
+- Search The Internet
 
 Some others you can check out:
 
@@ -182,4 +183,3 @@ Some others you can check out:
 - Annotations
 - Overdrive Link
 - View Manager
-- Search The Internet
