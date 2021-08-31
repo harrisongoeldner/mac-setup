@@ -6,22 +6,25 @@ A installation guide for setting up your mac for programming
 *Currently this guide is in active development*
 
 ## Content
-1. [Introduction](#Introduction)
-2. [Homebrew](#Installing-HomeBrew)
-3. [Commandline Tools](#Some-useful-commandline-tools)
-4. [Useful Applications](#Useful-Image-Editor-and-Video-Viewer)
-5. [Terminal](#Setup-Terminal-Emulator)
-6. [Code Editors](#Getting-Ready-your-Code-Editors)
-7. [Alfred](#Installing-Alfred)
-8. [Home/End Keys on macOS](#Mac-Keyboard-Home-and-End-Buttons)
-9. [Python Packages](#Python-Packges)
 
 - [Developer](#developer)
   - [Content](#content)
   - [Introduction](#introduction)
+    - [**What this isn't meant to be**](#what-this-isnt-meant-to-be)
+    - [**A Note on Security**](#a-note-on-security)
+    - [**Useful resource**](#useful-resource)
   - [Installing HomeBrew](#installing-homebrew)
   - [Some useful commandline tools](#some-useful-commandline-tools)
+    - [**wget**](#wget)
+    - [**GNU screen**](#gnu-screen)
+    - [**Speedtest**](#speedtest)
+    - [**Alternate shasum command**](#alternate-shasum-command)
+    - [**Alternate top**](#alternate-top)
+    - [**Update nano**](#update-nano)
+    - [**Network Scanner**](#network-scanner)
+    - [**Fuzzy Search (aka `fzf`)**](#fuzzy-search-aka-fzf)
   - [Useful Image Editor and Video Viewer](#useful-image-editor-and-video-viewer)
+    - [**A VLC Alternative**](#a-vlc-alternative)
   - [Setup Terminal Emulator](#setup-terminal-emulator)
     - [Powerline Fonts](#powerline-fonts)
     - [Plugins](#plugins)
@@ -43,15 +46,15 @@ A installation guide for setting up your mac for programming
 
 Setting up your Mac for optimal performance is key to productivity. This is what this guide tries accomplish. I've compiled all the little tidbits of information I've gathered over time and put it into this guide.
 
-**What this isn't meant to be**
+### **What this isn't meant to be**
 
 This guide isn't meant to be for everyone. It has been designed for a python development environment. Feel free to tweak it to your need.
 
-**A Note on Security**
+### **A Note on Security**
 
 Security is super important when you're a developer. All programs I discuss here are well reviewed development tools; some of which have even been audited by Mozilla. That being said, it is important that you assess the risks yourself. When considering something, is it too good to be true? It usually is. Just note, nothing on the internet is 100% safe. Technically Microsoft could be hacked or the file download be intercepted and corrupted (hence why its always important to check the checksum of everything). Throughout this guide I'll provide my tips for staying safe. Without further ado, lets begin.
 
-**Useful resource**
+### **Useful resource**
 
 A resource I stumbled upon is the following guide hosted on github. Although I haven't gone through all of it, I have definately looked at it often to see what it advises.
 
@@ -73,7 +76,7 @@ If you want to setup your mac for multiuser usage then checkout [https://medium.
 
 ## Some useful commandline tools
 
-**wget**
+### **wget**
 
 Wget is a super useful commandline that can download basically anything on the internet. It is often installed by default on most Linux systems and will be used later to set up the terminal.
 
@@ -87,7 +90,7 @@ The python shipped with most Macs is often outdated. To install the most recent 
 brew install python3
 ```
 
-**GNU screen**
+### **GNU screen**
 
 The [GNU Project](https://www.gnu.org/home.en.html) tools lead to the family of operating systems now known as Linux. They have many useful packages. One that I took a look at it called `screen`. I personally don't use it but some seem to enjoy it. Take a look into it and see if its for you.
 
@@ -95,7 +98,7 @@ The [GNU Project](https://www.gnu.org/home.en.html) tools lead to the family of 
 brew install screen
 ```
 
-**Speedtest**
+### **Speedtest**
 
 There are a couple speedtest options out there, an open source one called speedtest-cli and a CLI created by Ookla. I chose the latter and installed it as follows which can be found on their website [HERE](https://www.speedtest.net/apps/cli)
 
@@ -105,7 +108,7 @@ brew update
 brew install speedtest --force
 ```
 
-**Alternate shasum command**
+### **Alternate shasum command**
 
 `shasum -a 256 [filename]` has been essential to me for a long time. However, some websites (specifically arch linux) verify downloads using other methods. If you ever find yourself in this situation, one such package is as follows:
 
@@ -113,7 +116,7 @@ brew install speedtest --force
 brew install gnupg
 ```
 
-**Alternate top**
+### **Alternate top**
 
 The default top on Mac (run `top` in the terminal) isn't super intuitive. I personally prefer `htop` which is often found on Linux distributions.
 
@@ -121,7 +124,7 @@ The default top on Mac (run `top` in the terminal) isn't super intuitive. I pers
 brew install htop
 ```
 
-**Update nano**
+### **Update nano**
 
 Nano on Mac is severely out of date and lacks many new features. To get the updated version simple run the following command. (Note: When installing a package on Mac that already exists using homebrew, the system chooses the homebrew option although both still exist in the same place. To revert to the old version, simply run `brew uninstall [package]`)
 
@@ -129,7 +132,7 @@ Nano on Mac is severely out of date and lacks many new features. To get the upda
 brew install nano
 ```
 
-**Network Scanner**
+### **Network Scanner**
 
 A tool I like to use to scan my network for unknown devices is [nmap](https://en.wikipedia.org/wiki/Nmap). It's super useful and been around for ages. Again, installtion is made a breeze with Homebrew by running the following command:
 
@@ -137,7 +140,7 @@ A tool I like to use to scan my network for unknown devices is [nmap](https://en
 brew install nmap
 ```
 
-**Fuzzy Search (aka fzf**
+### **Fuzzy Search (aka [`fzf`](https://github.com/junegunn/fzf))**
 
 To be frank, this is a widely used tool that I haven't utilized too much... mainly due to being too lazy to learn a new command. Nevertheless I've heard of what it can do and plan to use it in the future.
 
@@ -159,6 +162,14 @@ Finally, VLC is such a staple when it comes to open source software I just had t
 
 ```
 brew install --cask vlc
+```
+
+### **A VLC Alternative**
+
+I truly love VLC for what it is. It is great when qeuing videos. I've definetely used it when cramming professor's lectures. The one thing it lacks however is polish. It feels very open source. Which is fine... just sometimes I want an application that feels native to macOS. This is when I found [IINA](https://iina.io/). This is an open source modern feeling video player with tons of capabilities. It reminds me of Quicktime. You can install it with:
+
+```
+brew install --cask iina
 ```
 
 ## Setup Terminal Emulator
@@ -301,7 +312,7 @@ Type `⌘⇧P` and then search `install extensions` and hit `ENTER`. From here, 
 
 Navigate to:
 
-![Microsoft Visual Studio Settings](https://github.com/harrisongoeldner/mac-setup/blob/main/Images/Microsoft%20Visual%20Studio%20Settings.png)
+![Microsoft Visual Studio Settings](/Images/Microsoft%20Visual%20Studio%20Settings.png)
 
 And add the last four lines (the first two were added when we changed in the python interpreter.
 
@@ -370,10 +381,14 @@ To get Alfred to work with iTerm2, the developer recommended the following scrip
 
 > [https://github.com/vitorgalvao/custom-alfred-iterm-scripts](https://github.com/vitorgalvao/custom-alfred-iterm-scripts)
 
+To get more info about Alfred see [Alfred.md](/Alfred.md)
+
 **To be Added**
 *Still in the works*
 
 ## Mac Keyboard Home and End Buttons
+
+An annoying problem in macOS is that the Home and End buttons don't work as expected. A solution to this is provided on [Apple Stack Exchange](https://apple.stackexchange.com/questions/16135/remap-home-and-end-to-beginning-and-end-of-line). You can find my file in [Files](/Files)
 
 ## Python Packges
 

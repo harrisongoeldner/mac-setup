@@ -8,7 +8,7 @@ Being able to view critical pieces of information about the status of your vario
 
 ## Fantastical
 
-For some, seeing the calendar and being able to interact with it from the Menu bar is absolutely essential.
+For some, seeing the calendar and being able to interact with it from the Menu bar is absolutely essential. In addition, the natural language processing is absolutely amazing. There is also a great Alfred workflow to quickly add events to the calendar using this natural language processing.
 
 ## Bartender
 

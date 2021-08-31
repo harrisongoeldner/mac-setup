@@ -163,23 +163,24 @@ Fetch news: You can choose your favorite news source from the menu, Press Schedu
 There you go. Now you're ready to use Calibre like a pro. If you have any problems, feel free to contact me.
 ```
 
-The other plugins you can install are:
-- EpubMerge
-- EpubSplit
-- FanFicFare
+Some other plugins you can install are:
 
-- KFX Input
-- KFX Output
+- EpubMerge - merges epubs
+- EpubSplit - splits epubs
+- FanFicFare - download fan fiction
 
-- Count Pages
-- Extract ISBN
-- Fantastic Fiction
-- Favourites Menu
-- Find Duplicates
-- Generate Cover
-- Goodreads
-- Manage Series
-- Modify ePub
+- KFX Input - convert amazon kfx to epub or mobi
+- KFX Output - convert mobi or epub to amazon kfx
+
+- Count Pages - count pages in book
+- Extract ISBN - find ISBN listed in book and add as attribute
+- Fantastic Fiction - add [Fantastic Fiction](https://www.fantasticfiction.com/) as source for metadata
+- Favourites Menu - hides extra menu options in pop down to clean up Calibre
+- Find Duplicates - finds duplicates in library
+- Generate Cover - generates customizable covers for ebooks
+- Goodreads add [https://www.goodreads.com/](https://www.goodreads.com/) as source for metadata download
+- Manage Series - easy way to order series of ebooks
+- Modify ePub - quick method of modifying many common attributes of ebooks
 - Quality Check
 - Reading List
 - Search The Internet

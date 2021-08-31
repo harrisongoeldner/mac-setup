@@ -6,20 +6,23 @@ In addition, I generally only update Homebrew every two weeks. Now, you could ar
 
 ## Content
 
-- [Browser](#Browser)
-- [Password Manager](#Password-Manager)
-- [Authenticator](#Authenticator)
-- [Ad Blocker](#Ad-blocker)
-- [Keyboard Software](#Keyboard-Software)
-- [Malware Scanner](#Malware-Scanner)
-- [Reference Manager](#Reference-Manager)
-- [Kanban](#Kanban)
-- [Spotlight Replacement](#Spotlight-Replacement)
-- [Spotify](#Spotify)
-- [MS Office](#MS-Office)
-- [Bartender](#Bartender)
-- [Magnet](#Magnet)
-- [iStat Menus](#iStat-Menus)
+- [Software](#software)
+  - [Content](#content)
+  - [Browser](#browser)
+  - [Password Manager](#password-manager)
+  - [Authenticator](#authenticator)
+  - [Ad Blocker](#ad-blocker)
+  - [Keyboard Software](#keyboard-software)
+  - [Malware Scanner](#malware-scanner)
+  - [Reference Manager](#reference-manager)
+  - [Kanban](#kanban)
+  - [Spotlight Replacement](#spotlight-replacement)
+  - [Spotify](#spotify)
+  - [MS Office](#ms-office)
+- [Extras](#extras)
+  - [Bartender](#bartender)
+  - [Magnet](#magnet)
+  - [iStat Menus](#istat-menus)
 
 ## Browser
 
