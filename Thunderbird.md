@@ -13,3 +13,4 @@ Since I started using macOS, choosing an email Client has been a struggle. There
 ## Thunderbird Setup
 
 To get thunderbird to work efficiently, you need to install a couple add-ons. (To be added)
+
