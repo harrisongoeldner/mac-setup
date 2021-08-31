@@ -16,6 +16,29 @@ A installation guide for setting up your mac for programming
 8. [Home/End Keys on macOS](#Mac-Keyboard-Home-and-End-Buttons)
 9. [Python Packages](#Python-Packges)
 
+- [Developer](#developer)
+  - [Content](#content)
+  - [Introduction](#introduction)
+  - [Installing HomeBrew](#installing-homebrew)
+  - [Some useful commandline tools](#some-useful-commandline-tools)
+  - [Useful Image Editor and Video Viewer](#useful-image-editor-and-video-viewer)
+  - [Setup Terminal Emulator](#setup-terminal-emulator)
+    - [Powerline Fonts](#powerline-fonts)
+    - [Plugins](#plugins)
+      - [Method 1](#method-1)
+      - [Method 2](#method-2)
+    - [Fix common error by adding to `.zshrc`](#fix-common-error-by-adding-to-zshrc)
+  - [Getting Ready your Code Editors](#getting-ready-your-code-editors)
+    - [Sublime Text](#sublime-text)
+    - [Visual Studio Code](#visual-studio-code)
+    - [Vim Setup](#vim-setup)
+      - [Setting up the `.vimrc` file](#setting-up-the-vimrc-file)
+  - [Useful Virtualization Tools](#useful-virtualization-tools)
+    - [Installation](#installation)
+  - [Installing Alfred](#installing-alfred)
+  - [Mac Keyboard Home and End Buttons](#mac-keyboard-home-and-end-buttons)
+  - [Python Packges](#python-packges)
+
 ## Introduction
 
 Setting up your Mac for optimal performance is key to productivity. This is what this guide tries accomplish. I've compiled all the little tidbits of information I've gathered over time and put it into this guide.

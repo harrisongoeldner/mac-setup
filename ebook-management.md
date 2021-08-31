@@ -6,6 +6,14 @@ The best way to manage your Ebooks is using a tool called [Calibre](https://cali
 
 It is important to keep in mind that I use macOS and a Kindle. This guide can still be used for other scenarios, but some of the plugins I use are Kindle specific.
 
+## Content
+
+- [Ebook Management](#ebook-management)
+  - [Content](#content)
+  - [Installation](#installation)
+  - [DeDRM](#dedrm)
+  - [Plugins](#plugins)
+
 ## Installation 
 
 Although Calibre can be installed using the link on the website, I prefer using a package manager. As I am on macOS, I prefer to use [Homebrew](https://brew.sh/). With Brew installed, this can be achieved by running:
