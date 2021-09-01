@@ -15,25 +15,31 @@ A installation guide for setting up your mac for programming
     - [**Useful resource**](#useful-resource)
   - [Installing HomeBrew](#installing-homebrew)
   - [Some useful commandline tools](#some-useful-commandline-tools)
-    - [**wget**](#wget)
-    - [**GNU screen**](#gnu-screen)
-    - [**Speedtest**](#speedtest)
-    - [**Alternate shasum command**](#alternate-shasum-command)
-    - [**Alternate top**](#alternate-top)
-    - [**Update nano**](#update-nano)
-    - [**Network Scanner**](#network-scanner)
-    - [**Fuzzy Search (aka `fzf`)**](#fuzzy-search-aka-fzf)
+    - [wget](#wget)
+    - [GNU screen](#gnu-screen)
+      - [GNU Screen Alternative (`tmux`)](#gnu-screen-alternative-tmux)
+    - [Speedtest](#speedtest)
+    - [Alternate shasum command](#alternate-shasum-command)
+    - [Alternate top](#alternate-top)
+    - [Updated nano](#updated-nano)
+    - [Network Scanner](#network-scanner)
+    - [System About: neofetch](#system-about-neofetch)
+    - [Fuzzy Search (aka `fzf`)](#fuzzy-search-aka-fzf)
+    - [Other Useful Terminal Applications](#other-useful-terminal-applications)
   - [Useful Image Editor and Video Viewer](#useful-image-editor-and-video-viewer)
-    - [**A VLC Alternative**](#a-vlc-alternative)
-  - [Setup Terminal Emulator](#setup-terminal-emulator)
+    - [A VLC Alternative](#a-vlc-alternative)
+  - [Setup Terminal Emulator (`iTerm2`)](#setup-terminal-emulator-iterm2)
     - [Powerline Fonts](#powerline-fonts)
     - [Plugins](#plugins)
       - [Method 1](#method-1)
       - [Method 2](#method-2)
+        - [Zsh-Autosuggestions](#zsh-autosuggestions)
+        - [Zsh-Syntax-Highlighting](#zsh-syntax-highlighting)
     - [Fix common error by adding to `.zshrc`](#fix-common-error-by-adding-to-zshrc)
   - [Getting Ready your Code Editors](#getting-ready-your-code-editors)
     - [Sublime Text](#sublime-text)
     - [Visual Studio Code](#visual-studio-code)
+      - [Plugins](#plugins-1)
     - [Vim Setup](#vim-setup)
       - [Setting up the `.vimrc` file](#setting-up-the-vimrc-file)
   - [Useful Virtualization Tools](#useful-virtualization-tools)
@@ -76,7 +82,7 @@ If you want to setup your mac for multiuser usage then checkout [https://medium.
 
 ## Some useful commandline tools
 
-### **wget**
+### wget
 
 Wget is a super useful commandline that can download basically anything on the internet. It is often installed by default on most Linux systems and will be used later to set up the terminal.
 
@@ -90,7 +96,7 @@ The python shipped with most Macs is often outdated. To install the most recent 
 brew install python3
 ```
 
-### **GNU screen**
+### GNU screen
 
 The [GNU Project](https://www.gnu.org/home.en.html) tools lead to the family of operating systems now known as Linux. They have many useful packages. One that I took a look at it called `screen`. I personally don't use it but some seem to enjoy it. Take a look into it and see if its for you.
 
@@ -98,9 +104,17 @@ The [GNU Project](https://www.gnu.org/home.en.html) tools lead to the family of 
 brew install screen
 ```
 
-### **Speedtest**
+#### GNU Screen Alternative (`tmux`)
 
-There are a couple speedtest options out there, an open source one called speedtest-cli and a CLI created by Ookla. I chose the latter and installed it as follows which can be found on their website [HERE](https://www.speedtest.net/apps/cli)
+I personally didn't get into GNU screen and instead began using `tmux`. Why? I just found it easier to use and figure out. They are relatively similar. I do enjoy the integration with `iTerm` however which you can read about [here](https://iterm2.com/documentation-tmux-integration.html). To install:
+
+```
+brew install tmux
+```
+
+### Speedtest
+
+There are a couple speedtest options out there, an open source one called `speedtest-cli` and a CLI created by Ookla. I chose the latter and installed it as follows which can be found on their [website](https://www.speedtest.net/apps/cli). You can install using the commands below:
 
 ```
 brew tap teamookla/speedtest
@@ -108,7 +122,7 @@ brew update
 brew install speedtest --force
 ```
 
-### **Alternate shasum command**
+### Alternate shasum command
 
 `shasum -a 256 [filename]` has been essential to me for a long time. However, some websites (specifically arch linux) verify downloads using other methods. If you ever find yourself in this situation, one such package is as follows:
 
@@ -116,7 +130,7 @@ brew install speedtest --force
 brew install gnupg
 ```
 
-### **Alternate top**
+### Alternate top
 
 The default top on Mac (run `top` in the terminal) isn't super intuitive. I personally prefer `htop` which is often found on Linux distributions.
 
@@ -124,7 +138,7 @@ The default top on Mac (run `top` in the terminal) isn't super intuitive. I pers
 brew install htop
 ```
 
-### **Update nano**
+### Updated nano
 
 Nano on Mac is severely out of date and lacks many new features. To get the updated version simple run the following command. (Note: When installing a package on Mac that already exists using homebrew, the system chooses the homebrew option although both still exist in the same place. To revert to the old version, simply run `brew uninstall [package]`)
 
@@ -132,7 +146,7 @@ Nano on Mac is severely out of date and lacks many new features. To get the upda
 brew install nano
 ```
 
-### **Network Scanner**
+### Network Scanner
 
 A tool I like to use to scan my network for unknown devices is [nmap](https://en.wikipedia.org/wiki/Nmap). It's super useful and been around for ages. Again, installtion is made a breeze with Homebrew by running the following command:
 
@@ -140,13 +154,21 @@ A tool I like to use to scan my network for unknown devices is [nmap](https://en
 brew install nmap
 ```
 
-### **Fuzzy Search (aka [`fzf`](https://github.com/junegunn/fzf))**
+### System About: neofetch
+
+I really like this handy little tool. Displays system information while looking nice. What's not to like? You can actually see it in use in the [image](/Images/iTerm.png) at the top of this page!
+
+### Fuzzy Search (aka [`fzf`](https://github.com/junegunn/fzf))
 
 To be frank, this is a widely used tool that I haven't utilized too much... mainly due to being too lazy to learn a new command. Nevertheless I've heard of what it can do and plan to use it in the future.
 
 ```
 brew install fzf
 ```
+
+### Other Useful Terminal Applications
+
+I have a bunch of fun and experiment terminal applications installed that I play around with. I've included that in another [document](Terminal%20Applications.md)!
 
 ## Useful Image Editor and Video Viewer
 
@@ -164,7 +186,7 @@ Finally, VLC is such a staple when it comes to open source software I just had t
 brew install --cask vlc
 ```
 
-### **A VLC Alternative**
+### A VLC Alternative
 
 I truly love VLC for what it is. It is great when qeuing videos. I've definetely used it when cramming professor's lectures. The one thing it lacks however is polish. It feels very open source. Which is fine... just sometimes I want an application that feels native to macOS. This is when I found [IINA](https://iina.io/). This is an open source modern feeling video player with tons of capabilities. It reminds me of Quicktime. You can install it with:
 
@@ -172,9 +194,9 @@ I truly love VLC for what it is. It is great when qeuing videos. I've definetely
 brew install --cask iina
 ```
 
-## Setup Terminal Emulator
+## Setup Terminal Emulator (`iTerm2`)
 
-iTerm2 is a great alternative to the default terminal that comes on Mac. It also has better color support and is my personal favorite emulator. I highly recommend. On top of that it was audited by Firefox!
+[iTerm2](https://iterm2.com/) is a great alternative to the default terminal that comes on Mac. It also has better color support and is my personal favorite emulator. I highly recommend. On top of that it was audited by Firefox!
 
 ```
 brew install --cask iterm2
@@ -190,7 +212,7 @@ If you want to setup brew completions in zsh then check out [https://docs.brew.s
 
 The next couple steps are optional but recommended if you want a fantastic looking terminal.
 
-Install [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh/)
+**Install [Oh-My-Zsh](https://github.com/ohmyzsh/ohmyzsh/):**
 
 ```
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -209,6 +231,8 @@ And run:
 ```
 ./install.sh
 ```
+
+I personally like the `Hack` font. You can change the font in iTerm by going to `Preferences` (<kbd>⌘</kbd>+<kbd>,</kbd>) and chaning the `Text` attributes under `Profiles`.
 
 ### Plugins
 
@@ -232,36 +256,40 @@ Enable plugins by adding the names to the plugin section of the .zshrc file loca
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 ```
 
-I have attached my .zshrc configuration to this repository.
+I have attached my .zshrc configuration to this repository in [Files](/Files).
 
 #### Method 2
 
 *These two plugins can also be installed using Homebrew or git in another folder. To add these to zsh you'd want to add the following lines to your .zshrc configuration file replacing the path*
 
-**Zsh-Autosuggestions**
+##### Zsh-Autosuggestions
 
 ```
 brew install zsh-autosuggestions
 ```
 
-**Zsh-Syntax-Highlighting**
+##### Zsh-Syntax-Highlighting
 
 ```
 brew install zsh-syntax-highlighting
 ```
+
 **Add sources to `.zshrc`**
 
 ```
 source [path]/zsh-syntax-highlighting.zsh
 source [path]/zsh-autosuggestions.zsh
 ```
+
 ### Fix common error by adding to `.zshrc`
+
+I got some complaints when I first set this all up. Below are some fixes to those problems. Plus I also include how to add `brew` completions to `zsh`.
 
 ```
 ZSH_DISABLE_COMPFIX="true"
 ```
 
-You'll want to add completions as well by adding the following:
+You'll want to add `brew` completions as well by adding the following:
 
 ```
 if type brew &>/dev/null; then
@@ -272,7 +300,7 @@ if type brew &>/dev/null; then
 fi
 ```
 
-Run `chmod -R go-w "$(brew --prefix)/share"` if get error are insecure directories.
+Run `chmod -R go-w "$(brew --prefix)/share"` if you get an error about insecure directories.
 
 Finally you will want to change the theme and perhaps add some aliases. Take a look at my script.
 
@@ -330,6 +358,37 @@ And add the last four lines (the first two were added when we changed in the pyt
 
 
 *Note: Configuration file included and also install python package*
+
+#### Plugins
+
+VSCode has tons of useful plugins. Their usefulness will vary depending on your use case. I find it helpful to google what others have used depending on what you are developing.
+
+Here are a couple guides on setting up VSCode to look nice:
+
+- [A Guide to Beautifying Visual Studio Code](https://medium.com/@bretcameron/the-2019-guide-to-beautifying-visual-studio-code-32470910fc5b)
+- [Making Visual Studio Code Better 🔥✨🛠](https://levelup.gitconnected.com/making-visual-studio-code-better-e72105809bf2)
+
+These are the extensions I use:
+
+- Prettier -> makes code look nice
+- Beautify -> like Prettier but for HTML
+- Bracket Pair Colorizer 2 -> helps with seeing paired brackets
+- Github Theme -> nice theme
+- Material Icons -> pretty sweet icon pack
+- Python
+- Pylance
+- C/C++
+- Arduino
+- Jupyter
+- Live Share -> super useful for real time collab
+- Github Pull Requests -> good for github integration
+- Markdown All in One -> amazing markdown extension
+- Markdown Preview Enhanced -> better markdown preview (don't use the one from Microsoft! I found it glitchy)
+- markdownlint
+- docs-markdown -> some markdown shortcuts cause I'm lazy
+- docs-linting -> you don't need this... I installed it and then realized it messed up my other linter (why Micrsoft? Why?). Too lazy to debug removing it so I left it installed. Works nicely with `markdownlint`.
+
+I tried the `Docs Authoring Pack` extension by Microsoft. It's essentially a pack of extensions to help with Markdown. The included previewer was glitchy so tried to remove. Tons of glitches removing! Huge pain! Got stuck in a dependancy loop... oh the joys. Finally removed and kept linter as explained above.
 
 ### Vim Setup
 
@@ -397,6 +456,5 @@ An annoying problem in macOS is that the Home and End buttons don't work as expe
 3. Cryptography package
 
 To be added:
-- neofetch
 - gh
 -bitwarden-cli

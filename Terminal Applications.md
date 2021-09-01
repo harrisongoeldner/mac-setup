@@ -1,5 +1,7 @@
 # Terminal Setup
 
+There are some pretty cool
+
 ## Web
 w3m
 lynx
