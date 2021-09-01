@@ -10,10 +10,10 @@ A installation guide for setting up your mac for programming
 - [Developer](#developer)
   - [Content](#content)
   - [Introduction](#introduction)
-    - [**What this isn't meant to be**](#what-this-isnt-meant-to-be)
-    - [**A Note on Security**](#a-note-on-security)
-    - [**Useful resource**](#useful-resource)
-  - [Installing HomeBrew](#installing-homebrew)
+    - [What this isn't meant to be](#what-this-isnt-meant-to-be)
+    - [A Note on Security 🔐](#a-note-on-security-)
+    - [Useful resource](#useful-resource)
+  - [Installing HomeBrew 🍺](#installing-homebrew-)
   - [Some useful commandline tools](#some-useful-commandline-tools)
     - [wget](#wget)
     - [GNU screen](#gnu-screen)
@@ -26,8 +26,13 @@ A installation guide for setting up your mac for programming
     - [System About: neofetch](#system-about-neofetch)
     - [Fuzzy Search (aka `fzf`)](#fuzzy-search-aka-fzf)
     - [Other Useful Terminal Applications](#other-useful-terminal-applications)
-  - [Useful Image Editor and Video Viewer](#useful-image-editor-and-video-viewer)
-    - [A VLC Alternative](#a-vlc-alternative)
+  - [Open Source Media Tools](#open-source-media-tools)
+    - [Gimp](#gimp)
+    - [Inkscape](#inkscape)
+    - [Audacity](#audacity)
+    - [Blender](#blender)
+    - [VLC](#vlc)
+    - [A VLC Alternative: IINA](#a-vlc-alternative-iina)
   - [Setup Terminal Emulator (`iTerm2`)](#setup-terminal-emulator-iterm2)
     - [Powerline Fonts](#powerline-fonts)
     - [Plugins](#plugins)
@@ -36,6 +41,7 @@ A installation guide for setting up your mac for programming
         - [Zsh-Autosuggestions](#zsh-autosuggestions)
         - [Zsh-Syntax-Highlighting](#zsh-syntax-highlighting)
     - [Fix common error by adding to `.zshrc`](#fix-common-error-by-adding-to-zshrc)
+  - [Github Development](#github-development)
   - [Getting Ready your Code Editors](#getting-ready-your-code-editors)
     - [Sublime Text](#sublime-text)
     - [Visual Studio Code](#visual-studio-code)
@@ -52,15 +58,15 @@ A installation guide for setting up your mac for programming
 
 Setting up your Mac for optimal performance is key to productivity. This is what this guide tries accomplish. I've compiled all the little tidbits of information I've gathered over time and put it into this guide.
 
-### **What this isn't meant to be**
+### What this isn't meant to be
 
 This guide isn't meant to be for everyone. It has been designed for a python development environment. Feel free to tweak it to your need.
 
-### **A Note on Security**
+### A Note on Security 🔐
 
 Security is super important when you're a developer. All programs I discuss here are well reviewed development tools; some of which have even been audited by Mozilla. That being said, it is important that you assess the risks yourself. When considering something, is it too good to be true? It usually is. Just note, nothing on the internet is 100% safe. Technically Microsoft could be hacked or the file download be intercepted and corrupted (hence why its always important to check the checksum of everything). Throughout this guide I'll provide my tips for staying safe. Without further ado, lets begin.
 
-### **Useful resource**
+### Useful resource
 
 A resource I stumbled upon is the following guide hosted on github. Although I haven't gone through all of it, I have definately looked at it often to see what it advises.
 
@@ -68,7 +74,7 @@ A resource I stumbled upon is the following guide hosted on github. Although I h
 https://sourabhbajaj.com/mac-setup/
 ```
 
-## Installing [HomeBrew](https://brew.sh/)
+## Installing [HomeBrew](https://brew.sh/) 🍺
 
 Something you're going to want to install right off the bat is Homebrew. Why? Simply put it going to be the back end to keeping all your development software up to date and on top of that it autochecks the checksum of downloaded files. It is a must have!
 
@@ -170,15 +176,38 @@ brew install fzf
 
 I have a bunch of fun and experiment terminal applications installed that I play around with. I've included that in another [document](Terminal%20Applications.md)!
 
-## Useful Image Editor and Video Viewer
+## Open Source Media Tools
+
+### Gimp
 
 When developing applications, it is often useful to be able to modify images. GIMP may be the best free and open source tool to do that. It may not have all the bells and whistles of Adobe Photoshop, but it doesn't cost a penny and will get the job done.
 
 ```
 brew install --cask gimp
 ```
+### Inkscape
+
+Inkscape is a vector editor similar to Adobe Illustrator except is is open source. I haven't needed it too much but could come in handy!
+
+```
+brew install --cask inkscape
+```
+
+### Audacity
 
 Another useful tool is Audacity which deals with audio files. Be careful to download from the official website however. There was a time where a **fake** website was the top search instead of the official one. [Link to Official Site](https://www.audacityteam.org/)
+
+### Blender
+
+This tool is a unique one. It enables the user to create 3D models and even animate them. Pretty neat!
+
+```
+brew install --cask blender
+```
+
+Last time I tried using `Brew` however something went wrong... sigh. So I manually installed it from the [website](https://www.blender.org/).
+
+### VLC
 
 Finally, VLC is such a staple when it comes to open source software I just had to install it.
 
@@ -186,7 +215,7 @@ Finally, VLC is such a staple when it comes to open source software I just had t
 brew install --cask vlc
 ```
 
-### A VLC Alternative
+### A VLC Alternative: IINA
 
 I truly love VLC for what it is. It is great when qeuing videos. I've definetely used it when cramming professor's lectures. The one thing it lacks however is polish. It feels very open source. Which is fine... just sometimes I want an application that feels native to macOS. This is when I found [IINA](https://iina.io/). This is an open source modern feeling video player with tons of capabilities. It reminds me of Quicktime. You can install it with:
 
@@ -303,6 +332,12 @@ fi
 Run `chmod -R go-w "$(brew --prefix)/share"` if you get an error about insecure directories.
 
 Finally you will want to change the theme and perhaps add some aliases. Take a look at my script.
+
+## Github Development
+
+I think the reocurring theme you can take away from programmers is that we are lazy. Why make something that already exists. There are a two commandline tools that come to mind: [git](https://git-scm.com/) and [gh](https://cli.github.com/). What's the difference? Take a look at [*What is the difference between git and Github CLI or gh?*](https://stackoverflow.com/questions/64763225/what-is-the-difference-between-git-and-github-cli-or-gh) I think you'll find it enlightening.
+
+To be frank, I have only really used git. I don't have the time to learn the official Github CLI (maybe one day though 🤔). To make my life even easier, I just use the [Github Desktop](https://desktop.github.com/) application. There are other that are more advanced but I haven't needed them yet.
 
 ## Getting Ready your Code Editors
 
@@ -451,9 +486,12 @@ An annoying problem in macOS is that the Home and End buttons don't work as expe
 
 ## Python Packges
 
-1. https://www.selenium.dev/
-2. Geckodriver
-3. Cryptography package
+I have used lots of Python packages over the years. Here are a couple that can be useful.
+
+1. Selenium + Geckodriver
+2. Cryptography
+3. Dropbox API
+4. 
 
 To be added:
 - gh
