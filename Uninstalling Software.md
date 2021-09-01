@@ -2,7 +2,7 @@
 
 Plenty of people are going to tell you than you need some magical uninstaller to remove programs on your Mac. The problem is most of these programs contain PUPs and malware... the exact opposite of what they advertise as!
 
-I wrote the following answer to a question on Super User in which I explain my process of uninstalling an app from macOS. In this example I talk about Iterm2. Keep in mind that this set of steps can be applied anywhere (and yes they spelled "from" wrong 🙄)
+I wrote the following answer to a question on Super User in which I explain my process of uninstalling an app from macOS. In this example I talk about `Iterm2`. Keep in mind that this set of steps can be applied anywhere (and yes they spelled "from" wrong 🙄)
 
 > [How to uninstall iTerm form the mac?](https://superuser.com/questions/1596965/how-to-uninstall-iterm-form-the-mac/1671308#1671308)
 
