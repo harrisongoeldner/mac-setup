@@ -439,10 +439,10 @@ brew install vim
 
 The `.vimrc` file is found in your `Home` directory. It's possible to use Vim without modifying anything. I personally used the following guides to create my own personal setup:
 
-```
-[https://github.com/romainl/idiomatic-vimrc](https://github.com/romainl/idiomatic-vimrc)
-[https://github.com/amix/vimrc](https://github.com/amix/vimrc)
-```
+
+> [https://github.com/romainl/idiomatic-vimrc](https://github.com/romainl/idiomatic-vimrc)
+> [https://github.com/amix/vimrc](https://github.com/amix/vimrc)
+
 
 ## Useful Virtualization Tools
 
@@ -486,13 +486,4 @@ An annoying problem in macOS is that the Home and End buttons don't work as expe
 
 ## Python Packges
 
-I have used lots of Python packages over the years. Here are a couple that can be useful.
-
-1. Selenium + Geckodriver
-2. Cryptography
-3. Dropbox API
-4. 
-
-To be added:
-- gh
--bitwarden-cli
+I think I will be moving this to a second of its own. 
