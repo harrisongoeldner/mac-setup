@@ -1,5 +1,7 @@
 # mac-setup
 
+**This project has moved to [harrisongoeldner/funkyapple](https://github.com/harrisongoeldner/funkyapple)**
+
 Welcome! This collection of documents in a **Mac guide** to setting up your computer. It is tagetted primarly for [macOS](https://en.wikipedia.org/wiki/MacOS) users but some things can be gleaned for other operating systems. The compadibility of the solutions in this guide are tested on the latest release of macOS which is Big Sur.
 
 I am moving this guide to my very own wiki! Go to wiki.goeldner.ca!
